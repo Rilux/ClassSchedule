@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn='navigation_view'>
+    <item android:title="Admin Register">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/login"
+                android:title="Log In as Admin"></item>
+            <item
+                android:id="@+id/register"
+                android:icon="@drawable/register"
+                android:title="Register as Admin"></item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/adminFunctions"
+        android:title="Admin Functions"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/addNewLessonHeld"
+                android:icon="@drawable/ic_add"
+                android:title="Add new lesson"></item>
+            <item
+                android:id="@+id/addNewClassRoom"
+                android:icon="@drawable/ic_add"
+                android:title="Add new class, room, subject"></item>
+            <item
+                android:id="@+id/addNewSpec"
+                android:icon="@drawable/ic_add"
+                android:title="Add new Specialization"></item>
+            <item
+                android:id="@+id/addNewTaught"
+                android:icon="@drawable/ic_add"
+                android:title="Add new Plained Subject"></item>
+            <item
+                android:id="@+id/editSpec"
+                android:icon="@drawable/ic_edit__1_"
+                android:title="Delete Specialization"></item>
+            <item
+                android:id="@+id/editTaught"
+                android:icon="@drawable/ic_edit__1_"
+                android:title="Insert Taught"></item>
+            <item
+                android:id="@+id/statistics"
+                android:icon="?attr/actionModePasteDrawable"
+                android:title="View Statistics"></item>
+            <item
+                android:id="@+id/statTau"
+                android:icon="?attr/actionModePasteDrawable"
+                android:title="View Statistics Taught"></item>
+        </menu>
+    </item>
+
+</menu>

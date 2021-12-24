@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeldInsert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#e5e5e5"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="#fca311"
+            android:backgroundTintMode="src_atop"
+            android:foregroundTint="@color/colorPrimary"
+            android:foregroundTintMode="src_atop"
+            android:gravity="center"
+            android:minHeight="32dp"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTintMode="src_atop"
+            android:gravity="center"
+            android:minHeight="32dp" />
+
+        <TextView
+            android:id="@+id/dateSelected"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#fca311"
+            android:backgroundTintMode="src_atop"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTintMode="src_atop"
+            android:gravity="center"
+            android:minHeight="32dp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTintMode="src_atop"
+            android:gravity="center"
+            android:minHeight="32dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Insert"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+
+        <CalendarView
+            android:id="@+id/calendarView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="57dp"
+            android:foregroundGravity="center" />
+
+    </LinearLayout>
+</RelativeLayout>

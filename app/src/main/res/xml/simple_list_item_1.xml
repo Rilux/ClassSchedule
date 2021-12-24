@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textClassName"
+        android:textColor = "#fca311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textClassTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</PreferenceScreen>
